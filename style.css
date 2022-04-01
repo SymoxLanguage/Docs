@@ -11,7 +11,7 @@ position: fixed;
 top: 0;
 left: 0;
 padding: 30px;
-width: 200px;
+width: 300px;
 height: 100vh;
 background-color: white;
 }
@@ -84,4 +84,12 @@ h1{
     border-radius: 10px;
     line-height: 2;
     font-family: 'Poppins', sans-serif;
+}
+
+.links{
+    text-decoration: none;
+}
+
+li{
+    width: auto;
 }
