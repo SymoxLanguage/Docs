@@ -1,1 +1,1 @@
-# (SymoxDocs)[https://symoxlanguage.github.io/docs]
+# [SymoxDocs](https://symoxlanguage.github.io/docs)
