@@ -24,6 +24,8 @@
             <a href="#Built-In-Funktionen" class="link">Integrierte Funktionen</a>
             <a href="#Multi-Line-Statements" class="link">Multi-Line-Statements</a>
             <a href="#RETURNCONTINUEBREAK" class="link">RETURN, CONTINUE und BREAK </a>
+            <a href="#RuninFile" class="link">In Datei ausführen</a>
+            <a href="#Comments" class="link">Kommentare</a>
         </div>
     </nav>
 
@@ -32,7 +34,7 @@
             <h1>Einführung</h1>
             <div class="box">
                 Name: Symox <br>
-                Version: 1.9 <br>
+                Version: 2.0 (letzte Version!) <br>
                 Author: Julian <br>
                 Gründungsdatum: 30.03.2022
             </div>
@@ -265,7 +267,28 @@
             symox > FUN test(); VAR foo = 5; RETURN foo; END <br>
             symox > &lt;function test> <br>
             </div>
-        <h4>Bald kommt mehr!</h4>
+        </div>
+    </div>
+    <div class="main-doc">
+        <div class="main-section" id="RuninFile">
+            <h1>In Datei ausführen</h1>
+            <p>Du kannst nun mit RUN("file") eine Datei, mit Symox Code ausführen.</p>
+            <p>Beispiel:</p>
+            <div class="box">
+                symox > RUN("example.sy") <br>
+                symox > Hello World <br>
+            </div>
+        </div>
+    </div>
+    <div class="main-doc">
+        <div class="main-section" id="Comments">
+            <h1>Kommentare</h1>
+            <p>Mit Kommentaren (#) kannst du deinen Code kommentieren. WICHTIG: Dies geht nur, wenn du deinen Code in einer Extra-Datei ausführst. </p>
+            <p>Beispiel:</p>
+            <div class="box">
+                #Symox ist cool <br>
+                PRINT("Hello") <br>
+            </div>
         </div>
     </div>
 </body>
