@@ -23,6 +23,7 @@
             <a href="#Listen" class="link">Listen</a>
             <a href="#Built-In-Funktionen" class="link">Integrierte Funktionen</a>
             <a href="#Multi-Line-Statements" class="link">Multi-Line-Statements</a>
+            <a href="#RETURNCONTINUEBREAK" class="link">RETURN, CONTINUE und BREAK </a>
         </div>
     </nav>
 
@@ -31,7 +32,7 @@
             <h1>Einführung</h1>
             <div class="box">
                 Name: Symox <br>
-                Version: 1.8 <br>
+                Version: 1.9 <br>
                 Author: Julian <br>
                 Gründungsdatum: 30.03.2022
             </div>
@@ -148,12 +149,10 @@
             <p>Mit Funktionen kannst du z.B. Sachen etwas leichter ausrechnen. </p>
             <p>Beispiel:</p>
             <div class="box">
-                <code><pre>
                     symox > FUN {function:name}* (a, b) -> a + b <br>
                     symox > &lt;function {function:name}> <br>
                     symox > {function:name}(4, 6) <br>
                     symox > 10 <br>
-                </pre></code>
             </div>
             <p><small>*{function:name} mit dem Namen deiner Funktion ersetzen.</small></p>
         </div>
@@ -252,6 +251,19 @@
             symox > PRINT("Hello World"); PRINT("Test erfolgreich") <br>
             Hello World <br>
             Test erfolgreich
+            </div>
+        </div>
+    </div>
+    <div class="main-doc">
+        <div class="main-section" id="RETURNCONTINUEBREAK">
+            <h1>RETURN, CONTINUE und BREAK</h1>
+            <p>RETURN, CONTINUE und BREAK sind auch nutzbar. Benutze die Statements wie im folgenden Beispiel:</p>
+            <p>Beispiel:</p>
+            <div class="box">
+            symox > FOR i = 0 TO 10 THEN; IF i == 4 THEN CONTINUE ELIF i == 8 THEN BREAK; VAR a = a + i; END <br>
+            symox > 0 <br>
+            symox > FUN test(); VAR foo = 5; RETURN foo; END <br>
+            symox > &lt;function test> <br>
             </div>
         <h4>Bald kommt mehr!</h4>
         </div>
